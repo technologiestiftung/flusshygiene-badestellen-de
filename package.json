@@ -1,0 +1,23 @@
+{
+  "name": "@tsb/flusshygiene-badestellen-de",
+  "version": "0.1.0",
+  "description": "Small toolset to parse a `.csv` with lots of data into `.json` and `.jsonl` for better handling.",
+  "main": "parsing/dist/cli.js",
+  "dependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/flusshygiene-badestellen-de.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/flusshygiene-badestellen-de/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/flusshygiene-badestellen-de#readme"
+}

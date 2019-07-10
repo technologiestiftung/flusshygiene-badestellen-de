@@ -1,0 +1,18 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "npm run build && node dist/cli.js ../flusshygiene-badestellen-de-parsing/data/badegewaesser.jsonl"
+  },
+  "watch": [
+    "src/**/*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts"
+}
