@@ -2,7 +2,7 @@ import { replaceExtension } from './replace-extension';
 import fs from 'fs';
 
 const pipe = require('pipe-io');
-var jsonl = require('jsonl')
+const jsonl = require('jsonl')
 
 
 export const transform = {
